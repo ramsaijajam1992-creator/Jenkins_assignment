@@ -1,5 +1,5 @@
 pipeline {
-  agent { label 'maven-agent' }
+  agent any
 
   environment {
     // Update these 3 values for your setup
